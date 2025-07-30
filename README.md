@@ -138,7 +138,7 @@ This setup includes several useful Storybook addons:
 * `bun test:e2e` - Run all end-to-end tests with playwright
 * `bun lint` - Lint and format all packages
 * `bun lint:fix` - Lint, format, and fix all packages
-* `bun changeset` - Generate a changeset 🧑‍🔧 - WIP
+* `bun changeset` - Generate a changeset to document a change
 * `bun clean` - Clean up all `node_modules` and `dist` folders (runs each package's clean script)
 * `bun ui:add:component` - Add a shadcn/ui component to the `@repo/ui` package
 * `bun storybook` - Run Storybook for component development and documentation
@@ -217,7 +217,7 @@ Maintains an up-to-date list of contributors in your README.
 
 ## Versioning and Publishing packages 📦
 
-🧑‍🔧 WIP
+This project uses Changesets to manage versioning. To document a change, run `bun changeset`. This will prompt you to select the packages that have been changed, the type of change (major, minor, or patch), and a description of the change.
 
 For more information, refer to the official [Changesets documentation](https://github.com/changesets/changesets/blob/main/docs/automating-changesets.md).
 

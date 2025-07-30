@@ -1,17 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# `@repo/storybook`
+
+This package contains the configuration and setup for Storybook.
+
+It is configured to find stories in the following locations:
+
+- `apps/storybook/src/**/*.mdx`
+- `apps/storybook/src/**/*.stories.@(js|jsx|mjs|ts|tsx)`
+- `apps/web/src/**/*.stories.@(js|jsx|mjs|ts|tsx)`
+- `packages/ui/src/**/*.stories.@(js|jsx|mjs|ts|tsx)`
 
 ## Getting Started
 
-First, run the development server:
+To run Storybook, navigate to the root of the monorepo and run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun storybook
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

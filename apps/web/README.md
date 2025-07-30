@@ -1,16 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# `@repo/web`
+
+This is the main web application, built with Next.js and the App Router.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server, navigate to the root of the monorepo and run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
