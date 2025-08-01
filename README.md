@@ -43,6 +43,12 @@ git clone https://github.com/gmickel/turborepo-shadcn-nextjs.git
 # Navigate to the project directory
 cd turborepo-shadcn-nextjs
 
+# Set up environment variables
+# Copy the example .env.example file to .env and update it with your credentials.
+cp .env.example .env
+
+# Now, edit the new .env file with your database connection string.
+
 # Install dependencies
 bun install
 
