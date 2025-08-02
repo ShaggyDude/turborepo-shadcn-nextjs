@@ -1,28 +1,24 @@
----
+# Muse: A Manifesto for Joyful Creation
 
-# Muse: A Manifesto for Joyful Creation (overview)
-
----
-
-# The Joy Has Been Lost from The Creative Process
-
-## 🌿 "Muse Flow (music)“ – 5 Movements from Jobs-to-be-Done to Working Code
+## The Joy Has Been Lost from The Creative Process
 
 ---
 
-## 🌿 Process Stages Overview
+## 🌿 "Muse Flow (music)" – 5 Movements from Jobs-to-be-Done to Working Code
+
+### Process Stages Overview
 
 Muse flows through seven **iterative stages**, grouped into three main **phases**. **Design and Development operate in parallel**, with each stage continuously informing the others.
 
-| Phase        | Stage | Name                                     | Purpose      |
-| -------- | ----- | ----------------------- | -------------- |
-| **Prep**             | 1     | Communication, Tracking & Data Discovery | Establish async workflows and investigate real data conditions.                      |
-| **Design ↔ Develop** | 2     | Ideation & Lo-Fi Exploration             | Rapid, low-cost idea exploration. Sketches (even Markdown-powered) live here.        |
-|                      | 3     | Self-Validating Specifications           | BDD feature specs that define user journeys and auto-generate test scaffolding.      |
-|                      | 4     | Direct Development with Real Data        | Build components in-context with real data and edge cases from day one.              |
-|                      | 5     | Core Tech Stack & Feedback               | Shared monorepo tools, data layer, runtime, and real-time stakeholder feedback.      |
-| **Launch & Learn**   | 6     | Release Cadence                          | Lightweight, continuous flow of deployment and prioritization.                       |
-|                      | 7     | Monitoring, Observability & Impact       | Data-driven feedback loop to validate feature success and improve future iterations. |
+| Phase | Stage | Name | Purpose |
+|-------|-------|------|---------|
+| **Prep** | 1 | Communication, Tracking & Data Discovery | Establish async workflows and investigate real data conditions. |
+| **Design ↔ Develop** | 2 | Ideation & Lo-Fi Exploration | Rapid, low-cost idea exploration. Sketches (even Markdown-powered) live here. |
+| | 3 | Self-Validating Specifications | BDD feature specs that define user journeys and auto-generate test scaffolding. |
+| | 4 | Direct Development with Real Data | Build components in-context with real data and edge cases from day one. |
+| | 5 | Core Tech Stack & Feedback | Shared monorepo tools, data layer, runtime, and real-time stakeholder feedback. |
+| **Launch & Learn** | 6 | Release Cadence | Lightweight, continuous flow of deployment and prioritization. |
+| | 7 | Monitoring, Observability & Impact | Data-driven feedback loop to validate feature success and improve future iterations. |
 
 Each stage is iterative — teams are encouraged to revisit, refine, and loop back as new insights emerge.
 
@@ -40,7 +36,7 @@ Each stage is iterative — teams are encouraged to revisit, refine, and loop ba
 - **Event-Driven Documentation:** ADRs captured when decisions happen, not scheduled meetings.
 - **AI-Aided Design Sprints:** Compressed into hours not weeks, aided by human-curated AI.
 - **Minimal Viable Documentation:** Document where it provides the most value.
-- **User-Controlled UI:** Respect system preferences (e.g., dark mode, prefers**) and avoid anti-features like theme toggles.
+- **User-Controlled UI:** Respect system preferences (e.g., dark mode, prefers) and avoid anti-features like theme toggles.
 - **Async-Meeting Culture:** Replace time-wasting meetings with purposeful, async communication and focused collaboration.
 - **Lean Operations, Rich Creation:** We aggressively favor free-tier and open-source tools. Money should be spent on what directly creates user value, not on operational overhead. This keeps the team lean, agile, and focused on the joy of building, not on burn rates.
 
@@ -59,26 +55,22 @@ Muse operates on a **hybrid approach** between visionary leadership and tactical
 ### Communication Cadence
 
 **Daily: Async Standups**
-
 - Written updates via Slack/Discord/GitHub w automated prompts for missing updates
 - No synchronous meetings required
 - Focus on progress, blockers, and next steps
 - AI bot assists with note-taking and ticket creation
 
 **Weekly: Encouragement & Alignment**
-
 - 30-minute team check-in focused on morale and high-level direction
 - Not a status meeting—more like "how are we feeling about this work?"
 - Rotate leadership to prevent meeting fatigue
 
 **Bi-weekly: Stakeholder Previews**
-
 - Share Vercel preview links with light commentary
 - Stakeholders provide feedback asynchronously
 - Focus on "is this the right direction?" rather than pixel-perfect feedback
 
 **Monthly: Strategic Alignment**
-
 - Leadership reviews overall direction and priorities
 - Adjust course based on Stage 7 monitoring data
 - Plan resource allocation and team needs
@@ -91,31 +83,23 @@ Muse operates on a **hybrid approach** between visionary leadership and tactical
 
 ---
 
-## 🕰️ The Sustainable Work Rhythm Stimulates Play  
+## 🕰️ The Sustainable Work Rhythm Stimulates Play
 
 ### The 4.5-Day Week Structure
 
 **Week A (Full Week):**
-
-``` text
-Monday:    9 hours (deep work day)
-Tuesday:   9 hours (collaboration day)
-Wednesday: 9 hours (development day)
-Thursday:  9 hours (review/feedback day)
-Friday:    9 hours (planning/cleanup)
-```
+- Monday: 9 hours (deep work day)
+- Tuesday: 9 hours (collaboration day)
+- Wednesday: 9 hours (development day)
+- Thursday: 9 hours (review/feedback day)
+- Friday: 9 hours (planning/cleanup)
 
 **Week B (Long Weekend):**
-
-Copy
-
-``` text
-Monday:    9 hours (deep work day)
-Tuesday:   9 hours (collaboration day)
-Wednesday: 9 hours (development day)
-Thursday:  9 hours (review/feedback day)
-Friday:    OFF
-```
+- Monday: 9 hours (deep work day)
+- Tuesday: 9 hours (collaboration day)
+- Wednesday: 9 hours (development day)
+- Thursday: 9 hours (review/feedback day)
+- Friday: OFF
 
 **Total:** 40.5 hours per week average across the year (50 work weeks)
 
@@ -143,19 +127,16 @@ Friday:    OFF
 An AI bot monitors team communications and provides intelligent assistance:
 
 **Proactive Suggestions:**
-
 - "Should I create a ticket for that feature request?"
 - "This sounds like it might affect the user onboarding spec—want me to flag it?"
 - "I noticed this technical discussion might warrant an ADR"
 
 **Automatic Note-Taking:**
-
 - Summarizes ad-hoc technical discussions
 - Extracts action items and decisions
 - Links conversations to relevant GitHub issues or specs
 
 **Context Awareness:**
-
 - Understands current sprint goals and feature development
 - Recognizes when conversations drift from implementation to design
 - Suggests moving detailed technical discussions to appropriate channels
@@ -176,19 +157,16 @@ An AI bot monitors team communications and provides intelligent assistance:
 Rather than fighting technical debt, Muse embraces technological evolution:
 
 **Lightweight but Powerful:**
-
 - Choose libraries with excellent documentation and strong communities
 - Prioritize simplicity over premature optimization
 - Focus on standards-based solutions that age well
 
 **AI-Assisted Migration:**
-
 - Document architectural decisions to support future AI-powered refactoring
 - Maintain clear component boundaries for easier replacement
 - Use TypeScript and structured schemas to support automated code generation
 
 **Incremental Replacement:**
-
 - New features use current best practices
 - Legacy code is migrated opportunistically when touched
 - Avoid big-bang rewrites in favor of gradual modernization
@@ -197,12 +175,13 @@ Rather than fighting technical debt, Muse embraces technological evolution:
 
 **Spec Confidence Levels:**
 
-- **High Confidence:** Well-understood patterns with clear user research backing
-- **Medium Confidence:** Reasonable assumptions based on similar features
-- **Low Confidence:** Experimental features requiring heavy monitoring and iteration
+| Confidence Level | Description | Testing Strategy |
+|------------------|-------------|------------------|
+| **High Confidence** | Well-understood patterns with clear user research backing | Comprehensive test coverage required |
+| **Medium Confidence** | Reasonable assumptions based on similar features | Standard test coverage |
+| **Low Confidence** | Experimental features requiring heavy monitoring and iteration | Lightweight test coverage initially |
 
 **Evolution Triggers:**
-
 - Stage 7 monitoring reveals different usage patterns than expected
 - Real user feedback contradicts original assumptions
 - Technical constraints emerge during development
@@ -225,7 +204,8 @@ In parallel, conduct a **pre-development data audit** to ensure the system start
 #### Data Reality Check Template
 
 ```markdown
-### Data Reality Assessment
+## Data Reality Assessment
+
 - [ ] Schema documentation exists and is current
 - [ ] Edge cases identified (nulls, empty arrays, malformed data)
 - [ ] Performance baselines established
@@ -239,22 +219,22 @@ Example Prisma Schema:
 
 ```prisma
 model User {
-  id       String  @id @default(cuid())
-  email    String  @unique
-  name     String?
-  posts    Post[]
+  id    String @id @default(cuid())
+  email String @unique
+  name  String?
+  posts Post[]
 }
 
 model Post {
-  id        String   @id @default(cuid())
-  title     String
-  content   String?
-  authorId  String
-  author    User     @relation(fields: [authorId], references: [id])
+  id       String @id @default(cuid())
+  title    String
+  content  String?
+  authorId String
+  author   User   @relation(fields: [authorId], references: [id])
 }
 ```
 
-_NOTE: These processes will be text-based with the goal of increasing automation over time as patterns solidify._
+*NOTE: These processes will be text-based with the goal of increasing automation over time as patterns solidify.*
 
 ---
 
@@ -262,7 +242,7 @@ _NOTE: These processes will be text-based with the goal of increasing automation
 
 ### Stage 2: Ideation & Lo-Fi Exploration
 
-Artifacts at this stage are intentionally low-fidelity and disposable to avoid locking into the wrong design. Paper is cheap but time is money
+Artifacts at this stage are intentionally low-fidelity and disposable to avoid locking into the wrong design. Paper is cheap but time is money.
 
 Includes sketches, whiteboards, or markdown-based wireframes. The goal is to find the right problem and approach before committing to code. Integrated into GitHub Discussions for visibility.
 
@@ -273,7 +253,8 @@ Includes sketches, whiteboards, or markdown-based wireframes. The goal is to fin
   - It is peer-reviewed and accepted into the discussion board
   - It is clearly documented in markdown, Figma, or embedded artifact
   - It's ready to promote to spec (Stage 3)
-- **Markdown-Powered Sketching:** Use [**Mermaid**](https://mermaid-js.github.io/) or [**Markmap**](https://markmap.js.org/) to create diagrams directly in Discussions or markdown files:
+
+- **Markdown-Powered Sketching:** Use [Mermaid](https://mermaid-js.github.io/) or [Markmap](https://markmap.js.org/) to create diagrams directly in Discussions or markdown files:
 
 ```mermaid
 flowchart TD
@@ -284,14 +265,12 @@ flowchart TD
 
 - **Cross-Stage Visibility:** When validated, sketches can be preserved in `design-archive/` folders or linked to specs.
 - **AI-Aided Variation:** Prompt AI to generate alternative flows for comparison:
-    
-    > "Generate three design variations for onboarding that reduce drop-off at step two."
-    
+  > "Generate three design variations for onboarding that reduce drop-off at step two."
 - **Iterative by Design:** Expect to return to this stage as specs or components raise new insights.
 
 ### Stage 3: Self-Validating Specifications
 
-_Bridge between design and development, where user intent becomes executable truth._
+*Bridge between design and development, where user intent becomes executable truth.*
 
 Stage 3 formalizes validated design ideas into executable, living specifications. These take the form of human-readable `.feature` files using **Behavior-Driven Development (BDD)**, which define complete user journeys in plain language. These specs double as documentation and automated tests, ensuring every feature delivers clear value and is always tested against real expectations.
 
@@ -302,11 +281,11 @@ Specs are written in [Gherkin](https://cucumber.io/docs/gherkin/) syntax:
 ```gherkin
 Feature: User onboarding flow
 
-  Scenario: New user completes signup
-    Given a visitor is on the homepage
-    When they click "Get Started"
-    And they fill out the registration form
-    Then they should see a welcome screen
+Scenario: New user completes signup
+  Given a visitor is on the homepage
+  When they click "Get Started"
+  And they fill out the registration form
+  Then they should see a welcome screen
 ```
 
 - **Feature:** The high-level user value
@@ -327,36 +306,21 @@ A self-validating spec is considered ready when:
 
 #### 🎯 Spec Confidence Levels
 
-**High Confidence Specs:**
-
-- Based on validated user research or established patterns
-- Clear success metrics defined
-- Comprehensive test coverage required
-- Minimal expected changes during development
-
-**Medium Confidence Specs:**
-
-- Reasonable assumptions based on similar features
-- Basic success metrics defined
-- Standard test coverage
-- Some iteration expected
-
-**Low Confidence Specs:**
-
-- Experimental features or new problem domains
-- Hypothesis-driven metrics
-- Lightweight test coverage initially
-- Heavy iteration and monitoring expected
+| Confidence Level | Characteristics | Testing Strategy |
+|------------------|-----------------|------------------|
+| **High Confidence** | Based on validated user research or established patterns | BDD + visual smoke test |
+| **Medium Confidence** | Reasonable assumptions based on similar features | BDD + device matrix + a11y checks |
+| **Low Confidence** | Experimental features or new problem domains | BDD + session replay + user testing + analytics tracking |
 
 #### 🧐 UX-Risk-Based Testing Strategy
 
 Not all features need the same rigor. Testing intensity scales with the user experience impact and novelty:
 
-|  UX Risk |   Example Features |   Testing Strategy                                                |
-|--------|-----------------|---------------------------------------|
-| **Low** |  Standard login, pagination |  BDD + visual smoke test
-| **Medium** |  Onboarding wizard, payment flow |  BDD + device matrix + a11y checks
-| **High** |  Complex dashboards, dynamic UIs |  BDD + session replay + user testing + analytics tracking
+| UX Risk | Example Features | Testing Strategy |
+|---------|------------------|------------------|
+| **Low** | Standard login, pagination | BDD + visual smoke test |
+| **Medium** | Onboarding wizard, payment flow | BDD + device matrix + a11y checks |
+| **High** | Complex dashboards, dynamic UIs | BDD + session replay + user testing + analytics tracking |
 
 This approach saves effort on boilerplate while focusing deeply on what's risky or novel.
 
@@ -374,10 +338,9 @@ This approach saves effort on boilerplate while focusing deeply on what's risky 
 - AI can suggest edits or identify untested paths
 
 Example AI prompt:
-
 > "Suggest missing scenarios in the user onboarding flow based on top user session patterns."
 
-_NOTE: These specs and tests are not static. They are refined over time as user data and real usage provide new insight._
+*NOTE: These specs and tests are not static. They are refined over time as user data and real usage provide new insight.*
 
 ---
 
@@ -416,14 +379,17 @@ Instead of a separate design token file or Figma library, the system evolves in 
 
 ##### Component Architecture
 
-**🔹 1. Atoms → /components/ui** 💡 **Purpose:** Reusable building blocks. Pure presentation. 📦 **Contents:** Buttons, Inputs, Icons, Avatars, etc.
+**🔹 1. Atoms → /components/ui**
+
+💡 **Purpose:** Reusable building blocks. Pure presentation.
+📦 **Contents:** Buttons, Inputs, Icons, Avatars, etc.
 
 - No business/domain knowledge
 - No layout assumptions
 - Just props in → UI out
 - Fully covered by the design system
 
-```tsx
+```typescript
 // Button.tsx
 import * as Headless from '@headlessui/react'
 import clsx from 'clsx'
@@ -436,26 +402,18 @@ const styles = {
     'px-[calc(--spacing(3.5)-1px)] py-[calc(--spacing(2.5)-1px)] sm:px-[calc(--spacing(3)-1px)] sm:py-[calc(--spacing(1.5)-1px)] sm:text-sm/6',
     'focus:not-data-focus:outline-hidden data-focus:outline-2 data-focus:outline-offset-2 data-focus:outline-blue-500',
     'data-disabled:opacity-50',
-    '*:data-[slot=icon]:-mx-0.5 *:data-[slot=icon]:my-0.5 *:data-[slot=icon]:size-5 *:data-[slot=icon]:shrink-0 *:data-[slot=icon]:self-center *:data-[slot=icon]:text-(--btn-icon) sm:*:data-[slot=icon]:my-1 sm:*:data-[slot=icon]:size-4 forced-colors:[--btn-icon:ButtonText] forced-colors:data-hover:[--btn-icon:ButtonText]',
+    '*:data-[slot=icon]:-mx-0.5 *:data-[slot=icon]:my-0.5 *:data-[slot=icon]:size-5 *:data-[slot=icon]:shrink-0',
   ],
   solid: [
     'border-transparent bg-(--btn-border)',
     'dark:bg-(--btn-bg)',
     'before:absolute before:inset-0 before:-z-10 before:rounded-[calc(var(--radius-lg)-1px)] before:bg-(--btn-bg)',
     'before:shadow-sm',
-    'dark:before:hidden',
-    'dark:border-white/5',
-    'after:absolute after:inset-0 after:-z-10 after:rounded-[calc(var(--radius-lg)-1px)]',
-    'after:shadow-[inset_0_1px_--theme(--color-white/15%)]',
-    'data-active:after:bg-(--btn-hover-overlay) data-hover:after:bg-(--btn-hover-overlay)',
-    'dark:after:-inset-px dark:after:rounded-lg',
-    'data-disabled:before:shadow-none data-disabled:after:shadow-none',
   ],
-    red: [
-      'text-white [--btn-hover-overlay:var(--color-white)]/10 [--btn-bg:var(--color-red-600)] [--btn-border:var(--color-red-700)]/90',
-      '[--btn-icon:var(--color-red-300)] data-active:[--btn-icon:var(--color-red-200)] data-hover:[--btn-icon:var(--color-red-200)]',
-    ],
-  },
+  red: [
+    'text-white [--btn-hover-overlay:var(--color-white)]/10 [--btn-bg:var(--color-red-600)] [--btn-border:var(--color-red-700)]/90',
+    '[--btn-icon:var(--color-red-300)] data-active:[--btn-icon:var(--color-red-200)] data-hover:[--btn-icon:var(--color-red-200)]',
+  ],
 }
 
 export const Button = forwardRef(function Button({ color, outline, plain, className, children, ...props }, ref) {
@@ -479,26 +437,27 @@ export const Button = forwardRef(function Button({ color, outline, plain, classN
 export function TouchTarget({ children }) {
   return (
     <>
-      <span
-        className="absolute top-1/2 left-1/2 size-[max(100%,2.75rem)] -translate-x-1/2 -translate-y-1/2 pointer-fine:hidden"
-        aria-hidden="true"
-      />
+      <span className="absolute top-1/2 left-1/2 size-[max(100%,2.75rem)] -translate-x-1/2 -translate-y-1/2 pointer-fine:hidden" aria-hidden="true" />
       {children}
     </>
   )
 }
 ```
 
-**🔸 2. Features → /components/features** 💡 **Purpose:** Domain-aware components that implement flows or page-specific functionality 📦 **Contents:** SignupForm, ProductList, UserProfileCard, CommentThread
+**🔸 2. Features → /components/features**
+
+💡 **Purpose:** Domain-aware components that implement flows or page-specific functionality
+📦 **Contents:** SignupForm, ProductList, UserProfileCard, CommentThread
 
 - Composes multiple atoms
 - Can contain logic (e.g., fetch, validation)
 - Bound to business domain or app feature
 - Mapped directly to .feature files
 
-```tsx
+```typescript
 // SignupForm.tsx
 import { Input, Button } from "@/components/ui";
+
 export function SignupForm() {
   const { register, handleSubmit } = useForm();
   return (
@@ -511,13 +470,16 @@ export function SignupForm() {
 }
 ```
 
-**🟦 3. Layouts → /app/layout.tsx (or /layouts)** 💡 **Purpose:** Structural container for pages 📦 **Contents:** Header, Footer, Sidebar, Page shell using CSS Grid
+**🟦 3. Layouts → /app/layout.tsx (or /layouts)**
+
+💡 **Purpose:** Structural container for pages
+📦 **Contents:** Header, Footer, Sidebar, Page shell using CSS Grid
 
 - Defines grid-template-areas and placement
 - Rarely needs logic (though can conditionally show/hide sections)
 - Controls flow/responsiveness — e.g. how aside, main, footer shift on small screens
 
-```tsx
+```typescript
 // layout.tsx
 export default function Layout({ children }) {
   return (
@@ -525,19 +487,18 @@ export default function Layout({ children }) {
       <head>
         <style>
           {`
-          @media all {
-            body {
-              display: grid;
-              grid-template-columns: 1fr;
-              grid-template-areas:
-                "header"
-                "main"
-                "footer";
-
-              max-width: 1024px;
-              margin: 0 auto;
-              min-height: 100vh;
-            }
+            @media all {
+              body {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                  "header"
+                  "main"
+                  "footer";
+                max-width: 1024px;
+                margin: 0 auto;
+                min-height: 100vh;
+              }
             }
             @media (min-width: 640px) {
               body {
@@ -579,7 +540,7 @@ A component is considered complete when:
 - **Upstream to Design:** Building reveals missing states or complexity → Design (Stage 2) revisits flows.
 - **Downstream to Feedback:** Working code is immediately deployed for review in Stage 5.
 
-```tsx
+```typescript
 // UserCard.tsx
 export function UserCard({ user }: { user: User }) {
   return (
@@ -589,9 +550,7 @@ export function UserCard({ user }: { user: User }) {
     </div>
   );
 }
-```
 
-```ts
 // Sample data injection in page
 const user = await prisma.user.findFirst({ where: { email: "demo@example.com" } });
 return <UserCard user={user} />;
@@ -624,71 +583,66 @@ This stage provides the foundational technology, infrastructure, and feedback me
 #### Process Health Monitoring
 
 **Retrospective Triggers:**
-
 - When features take >2 weeks to get user feedback
 - When >30% of BDD specs fail in production
 - When component rework exceeds new development time
 - When stakeholder feedback conflicts with established specs
 
 **Quality Gates:**
-
 - All new features must have corresponding BDD specs
 - All components must handle null/undefined data gracefully
 - All API changes must be backwards compatible or properly versioned
 - All PRs must include preview deployment links
 
-#### Development Tooling Example: Component Inspector (explore mightymeld)
+#### Development Tooling Example: Component Inspector
 
 As an example of how Stage 5 tooling supports Muse methodology, we can look at the Component Inspector - a development tool that allows developers to browse and inspect components directly in their development environment.
 
 ```gherkin
-
 Feature: Component Inspector
   As a developer working on the application
   I want to inspect and browse components directly in the dev environment
   So that I can quickly reference documentation and variants without leaving my development context
 
-  Background:
-    Given I am in development mode
-    And the application is running locally
+Background:
+  Given I am in development mode
+  And the application is running locally
 
-  Scenario: Opening component inspector with floating button
-    Given I am viewing any page in the application
-    When I look at the bottom-right corner of the screen
-    Then I should see a floating blue button with a layers icon
-    When I click the floating button
-    Then the component inspector panel should open from the right side
-    And I should see a list of all available components
+Scenario: Opening component inspector with floating button
+  Given I am viewing any page in the application
+  When I look at the bottom-right corner of the screen
+  Then I should see a floating blue button with a layers icon
+  When I click the floating button
+  Then the component inspector panel should open from the right side
+  And I should see a list of all available components
 
+Scenario: Responsive behavior
+  Given the component inspector is open
+  And I resize the browser window
+  Then the inspector panel should maintain its fixed width
+  And the floating button should remain in the bottom-right corner
+  And the panel should remain accessible and usable
 
+Scenario: Component data loading
+  Given the component inspector is first opened
+  When the component discovery system is loading
+  Then I should see a loading state or skeleton
+  And once loaded, I should see all discovered components
+  And components should be sorted alphabetically by name
 
-  Scenario: Responsive behavior
-    Given the component inspector is open
-    And I resize the browser window
-    Then the inspector panel should maintain its fixed width
-    And the floating button should remain in the bottom-right corner
-    And the panel should remain accessible and usable
+Scenario: Error handling for missing components
+  Given the component inspector is open
+  And there are no components discovered
+  When I look at the component list
+  Then I should see an appropriate empty state message
+  And I should see guidance on how to add component documentation
 
-  Scenario: Component data loading
-    Given the component inspector is first opened
-    When the component discovery system is loading
-    Then I should see a loading state or skeleton
-    And once loaded, I should see all discovered components
-    And components should be sorted alphabetically by name
-
-  Scenario: Error handling for missing components
-    Given the component inspector is open
-    And there are no components discovered
-    When I look at the component list
-    Then I should see an appropriate empty state message
-    And I should see guidance on how to add component documentation
-
-  Scenario: Code syntax highlighting
-    Given I am viewing a component's variant code
-    When I look at the code preview
-    Then JSX syntax should be highlighted appropriately
-    And the code should be formatted in a monospace font
-    And it should have a dark theme with green text on dark background
+Scenario: Code syntax highlighting
+  Given I am viewing a component's variant code
+  When I look at the code preview
+  Then JSX syntax should be highlighted appropriately
+  And the code should be formatted in a monospace font
+  And it should have a dark theme with green text on dark background
 ```
 
 This Component Inspector exemplifies how Stage 5 tooling supports the entire Muse process by providing instant access to component documentation, variants, and related specs without leaving the development context.
@@ -777,24 +731,4 @@ This final stage ensures that deployed features deliver the intended value and f
 
 - **PostHog / Plausible / Amplitude:** Event-based user behavior analytics.
 - **Highlight / Sentry / LogRocket:** Frontend session recording and error tracking.
-- **Grafana / Prometheus:** System-level performance and uptime metrics.
-- **Playwright Traces:** Detect regressions in test coverage over time.
-
-#### 🔁 Feedback to All Stages
-
-Insights from this stage flow backward:
-
-- Back to **Design**: Real user behavior reveals missed assumptions.
-- Back to **Specs**: Behavior patterns or regressions suggest updates to `.feature` files.
-- Back to **Tech Stack**: Errors or bottlenecks suggest architectural improvements.
-- Back to **Process**: Methodology improvements based on what's working or failing.
-
-#### ✅ "Done" Means Verified & Learned
-
-A feature's lifecycle completes when:
-
-- It has demonstrable impact or insight (positive or negative)
-- It has confirmed metrics aligned with its original goal
-- Its learnings inform the next iteration, spec, or design
-- Its patterns are documented for future reference
-- Team has confidence in similar future features
+- **Grafana / Prometheus:** System-level performance and uptime
